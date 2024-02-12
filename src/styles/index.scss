@@ -1,0 +1,633 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    min-width: 100% !important;
+    overflow-y: hidden;
+    background-color: white;
+}
+
+html{
+    position: fixed;
+    min-width: 100%;
+}
+
+.root{
+    background-color: white;
+}
+
+.App{
+    .headerfd{
+        background-color: #ffffff;
+        margin-bottom: 1rem;
+        border-bottom: 0.5rem solid black;
+        font-size: 2rem;
+        color: white;
+        padding-top: 8px;
+        display: flex;
+        padding: 0rem 3rem;
+        padding-right: 5rem;
+
+        .logo-stix{
+            position: absolute;
+            width: 21rem;
+            right: -5rem;
+            z-index: 100;
+        }
+
+        .hamb{
+            margin: 1rem;
+            margin-left: 1.5rem;
+            color: black !important;
+        }
+
+        .headertitle{
+            margin-left: 2rem;
+            margin-top: 1.5rem;
+        }
+
+        .systitle{
+            color: #1371b9;
+            padding-left: 2rem;
+            padding-top: 0.5rem;
+        }
+
+        .logo-fd{
+            width: 12rem;
+            height: auto;
+        }
+
+        label{
+            font-size: 2rem;
+            color: white;
+            padding-top: 2.3rem;
+        }
+    }
+
+}
+
+.pushable .sidebarx{
+    background-color: black !important;
+
+    .last{
+        position: fixed !important;
+        bottom: 0 !important;
+        text-align: center !important;
+        width: 100% !important;
+    }
+
+    .headtext{
+        margin: 2rem!important;
+
+        .content{
+            color: white !important;
+        }
+    }
+}
+
+.intake-sheet{
+    position: relative;
+
+    .content{
+        .inputTID #myAnchor{
+            border: 0.2rem solid #fee1a4;
+            text-align: left;
+            margin-bottom: 1rem;
+            padding: 1rem 2rem !important;
+            width: 100% !important;
+        }
+        .form-page{
+            margin: 0rem 5rem;
+            display: flex;
+
+            .prefilled1,
+            .prefilled2,
+            .tofill,
+            .stats{
+                margin-right: 1rem;
+                width: 27.5%;
+            }
+
+            .stats{
+                text-align: center;
+                background-image: url('../assets/bg.png');
+                padding: 1rem 3rem;
+                height: 100vh;
+                margin-top: -1rem;
+            }
+
+            .actions{
+                width: 100%;
+                margin-right: 0rem;
+
+                .submit,
+                .print-gl{
+                    height: 5rem;
+                }
+            }
+        }
+    }
+
+   .form-sheet{
+        width: 816px;
+        height: 1056px;
+        position: relative;
+        border: 1px solid gray;
+
+        .head{
+            .logo-calamba{
+                width: 5.5rem;
+                position: absolute;
+                margin: 0rem 6rem;
+            }
+    
+            .r{
+                text-align: center;
+            }
+    
+            .x{
+                text-align: center;
+                padding: 0rem;
+            }
+            .bcode{
+                text-align: center;
+                position: absolute;
+                right: 0;
+                margin-right: 6rem;
+                margin-top: -2.7rem;
+            }
+    
+            .footer-is{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+        }
+
+        .body{
+            .equate-one{
+                text-align: left;
+                margin-left: 6rem;
+                .field-row{
+                    margin-top: 0.5rem;
+                    .field-a{
+                        font-size: 18px;
+                        font-weight: bolder;
+                    }
+                }
+            }
+            .equate-two{
+                column-count: 2;
+                margin: 1rem 6rem;
+                .field-row{
+                    padding-top: 0.5rem;
+                    .field-a{
+                        font-weight: bolder;
+                        height: 40px;
+                    }
+                }
+            }
+
+            .second{
+                display: flex;
+                margin-left: 6rem;
+                .left{
+                    width: 40%;
+                    .t{
+                        text-align: left;
+                    }
+                    .list-req{
+                        margin: 1rem -rem;
+                    }
+                }
+
+                .right{
+                    margin-left: 3rem;
+
+                    .v{
+                        margin: 0rem;
+                    }
+
+                    .y{
+                        margin-top: 1rem;
+                    }
+
+                    .line{
+                        margin-top: 3rem;
+                        background-color:rgba(34,36,38,.15);
+                        height: 2px;
+                        width: 250px;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.window1{
+    .upper{
+        display: flex;
+
+        .up-next,
+        .numbers{
+            width: 50%;
+            text-align: center;
+        }
+
+        .up-next .logo-header{
+            display: flex;
+            text-align: center;
+
+            .logo-logo,
+            .logo-up-next{
+                flex: 1;
+                text-align: center;
+            }
+
+            .logo-logo .logo-next{
+                width: 20rem;
+                margin-top: 3rem;
+            }
+
+            .logo-up-next{
+                margin-top: 2rem;
+
+                .y{
+                    font-size: 61px;
+                    margin: 0;
+                    font-weight: bolder;
+                }
+
+                .h{
+                    font-size: 10rem;
+                    margin: 0;
+                    padding: 2rem;
+                    line-height: .7;
+                    font-weight: bolder;
+                }
+
+                .t{
+                    font-size: 50px;
+                    font-weight: bolder;
+                }
+            }
+        }
+
+        .up-next .windows{
+            display: flex;
+            margin-top: 3rem;
+            div{
+                flex: 1;
+            }
+
+            .window{
+                font-size: 50px;
+                font-weight: bolder;
+
+                .header{
+                    background-color: #fcd521;
+                    padding: 2rem;
+                    color: black;
+                }
+
+                .content{
+                    font-size: 120px;
+                    margin-top: 4rem;
+                }
+            }
+        }
+
+        .numbers .queue-list {
+            width: 100%;
+            font-size:0px;
+            text-align: center;
+            padding: 2rem;
+            height: 80vh;
+            overflow-x: auto;
+
+        .list {
+            display: inline-block;
+            height: 10rem;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            width: 25%;
+            padding-right: 10px;
+            background-clip: content-box;
+            font-size: 12px;
+            transition: display 2s ease-in-out;
+            
+            .text{
+                font-size: 6rem;
+                color: #303030;
+
+                .sub.header{
+                    font-size: 1.2rem !important;
+                    margin: -1rem;
+                }
+            }
+        }
+    }
+    }
+
+    .logo{
+        display: flex;
+        position: fixed;
+        bottom: 0;
+
+        img{
+            width: 50%;
+        }
+    }
+
+    .video{
+        width: 65rem;
+        height: 30rem;
+        background-color: black;
+        position: absolute;
+        bottom: 0;
+        margin: 2rem;
+    }
+}
+
+.controller{
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .btns{
+        .item .content{
+            padding: 0rem 3rem !important;
+        }
+
+        .item .content .window-text{
+            color: #0c77bd !important;
+        }
+    }
+
+    .queue-current{
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        .header-current{
+            font-size: 5rem;
+            margin-top: 1rem;
+        }
+    }
+
+    .btn-settings{
+        position: fixed;
+        top: 5rem;
+        left: 0;
+        margin-left: -7px;
+    }
+}
+
+.kiosk{
+    background-color: white;
+    .flash-screen{
+        display: grid;
+        place-items: center;
+
+        .fs-logo{
+            width: 23rem;
+            text-align: center;
+            position: absolute;
+            bottom: 40vh;
+        }
+
+        .touch-to-start{
+            background-color: #1172b9;
+            color: white;
+            padding: 5rem;
+            text-align: center;
+            font-size: 5rem;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            height: 14vh;
+        }
+    }
+
+    .banner-img{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .choices{
+        .header{
+            text-align: center;
+            font-size: 3rem;
+            color: #303030;
+        }
+
+        .list-of-choices{
+            height: 100vh;
+            width: 100vw;
+            background: linear-gradient(180deg, white 17%, #f5d034 70%, #fedc51 100%);
+
+            .grid-equal{
+                padding: 1rem 4rem;
+                text-align: center;
+
+                .row .image img{
+                    width: 60%;
+                }
+            }
+        }
+    }
+
+    .form-to-fill{
+        padding: 1rem 4rem;
+        height: 70vh;
+        overflow: auto;
+        
+        .header-text-ff{
+            text-align: center;
+            font-size: 1.5rem;
+            color: #303030;
+        }
+    }
+}
+
+.modals{
+    .modal{
+        .mct,.gl{
+            overflow-y: scroll;
+            max-height: 80rem;
+            width: 65rem;
+        }
+    }
+}
+
+.print{
+    margin: auto 5rem;
+    display: block;
+
+    .inputTID{
+        margin-bottom: 1rem;
+    }
+}
+
+.social-case{
+        margin: auto 5rem;
+        display: block;
+    
+    .inputTID{
+        margin-bottom: 1rem;
+    }
+}
+
+.meds{
+    position: relative;
+    overflow-y: scroll;
+    height: 100vh;
+    overflow-x: hidden;
+
+    .headerfd{
+        background-color: #ffffff;
+        margin-bottom: 1rem;
+        border-bottom: 0.5rem solid #11baef;
+        font-size: 2rem;
+        color: white;
+        padding-top: 8px;
+        display: flex;
+        padding: 0rem 3rem;
+        padding-right: 5rem;
+
+        .systitle{
+            color: #1371b9;
+            padding-left: 2rem;
+            padding-top: 0.5rem;
+        }
+
+        .logo-fd{
+            width: 12rem;
+            height: auto;
+        }
+
+        label{
+            font-size: 2rem;
+            color: white;
+            padding-top: 2.3rem;
+        }
+
+        .save-btn{
+            margin-left: auto;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            padding: 1rem 8rem;
+        }
+    }
+
+    .add-form{
+        margin: 1rem 6rem;
+        border-bottom: 1px solid #e0e1e2;
+        margin-bottom: 2rem;
+    }
+
+    .list-medicine{
+        margin: 1rem 6rem;
+        height: 100vh;
+        overflow-x: auto;
+    }
+}
+
+
+.hit{
+    display: grid;
+    text-align: center;
+
+    .heads{
+        .logo-mopac{
+            place-items: center;
+            text-align: center;
+            height: 7rem;
+        }
+
+        border-bottom: 3px solid #2285d0;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cont-body{
+        margin: 10rem 3rem;
+        display: grid;
+    }
+
+    .search-last-name{
+        margin-top: 1rem;
+    }
+
+    .btn-srch{
+        margin-top: 2rem !important;
+    }
+
+    .res{
+        margin-top: 2rem;
+        text-align: left;
+    }
+}
+
+
+.moa{
+    position: relative;
+    overflow-y: scroll;
+    height: 100vh;
+    overflow-x: hidden;
+
+    .headerfd{
+        background-color: #ffffff;
+        margin-bottom: 1rem;
+        border-bottom: 0.5rem solid #11baef;
+        font-size: 2rem;
+        color: white;
+        padding-top: 8px;
+        display: flex;
+        padding: 0rem 3rem;
+        padding-right: 5rem;
+
+        .systitle{
+            color: #1371b9;
+            padding-left: 2rem;
+            padding-top: 0.5rem;
+        }
+
+        .logo-fd{
+            width: 12rem;
+            height: auto;
+        }
+
+        label{
+            font-size: 2rem;
+            color: white;
+            padding-top: 2.3rem;
+        }
+
+        .save-btn{
+            margin-left: auto;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            padding: 1rem 8rem;
+        }
+    }
+
+    .add-form{
+        margin: 1rem 6rem;
+        border-bottom: 1px solid #e0e1e2;
+        margin-bottom: 2rem;
+    }
+
+    .hospitals{
+        margin: 1rem 6rem;
+    }
+} 
